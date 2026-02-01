@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Alexandra Della",
+    "email": "alex@example.com",
+    "phone": "+1 (375) 9632 548",
+    "avatar": "assets/images/avatar/1.png",
+    "avatarBg": null,
+    "initials": null,
+    "groups": ["Promotions", "High Budget"],
+    "date": "2023-04-05, 00:05PM",
+    "status": "Active"
+  },
+  {
+    "id": 2,
+    "name": "Nancy Elliot",
+    "email": "nancy.elliot@outlook.com",
+    "phone": "(375) 8523 456",
+    "avatar": null,
+    "avatarBg": "bg-warning text-white",
+    "initials": "N",
+    "groups": ["Promotions", "Wholesale", "Low Budget"],
+    "date": "2023-04-06, 02:52PM",
+    "status": "Active"
+  },
+  {
+    "id": 3,
+    "name": "Green Cute",
+    "email": "green.cute@outlook.com",
+    "phone": "(845) 9632 874",
+    "avatar": "assets/images/avatar/2.png",
+    "avatarBg": null,
+    "initials": null,
+    "groups": ["Personal", "Promotions"],
+    "date": "2023-04-08, 08:34PM",
+    "status": "Active"
+  },
+  {
+    "id": 4,
+    "name": "Henry Leach",
+    "email": "henry.leach@outlook.com",
+    "phone": "(258) 9514 657",
+    "avatar": null,
+    "avatarBg": "bg-teal text-white",
+    "initials": "H",
+    "groups": ["Primary", "Updates", "Personal"],
+    "date": "2023-04-10, 05:25PM",
+    "status": "Inactive"
+  },
+  {
+    "id": 5,
+    "name": "Marianne Audrey",
+    "email": "marine.adrey@outlook.com",
+    "phone": "(456) 6547 524",
+    "avatar": "assets/images/avatar/3.png",
+    "avatarBg": null,
+    "initials": null,
+    "groups": ["Team", "Updates"],
+    "date": "2023-04-12, 12:02PM",
+    "status": "Active"
+  },
+  {
+    "id": 6,
+    "name": "Nancy Elliot",
+    "email": "nancy.elliot@outlook.com",
+    "phone": "(375) 8523 456",
+    "avatar": null,
+    "avatarBg": "bg-warning text-white",
+    "initials": "N",
+    "groups": ["Bugs", "Team", "Updates"],
+    "date": "2023-04-15, 02:40PM",
+    "status": "Active"
+  },
+  {
+    "id": 7,
+    "name": "Cute Green",
+    "email": "cute.green@outlook.com",
+    "phone": "(632) 5486 662",
+    "avatar": "assets/images/avatar/4.png",
+    "avatarBg": null,
+    "initials": null,
+    "groups": ["VIP", "Promotions", "Wholesale"],
+    "date": "2023-04-25, 03:42PM",
+    "status": "Active"
+  },
+  {
+    "id": 8,
+    "name": "Leach Henry",
+    "email": "leach.henry@outlook.com",
+    "phone": "(951) 5478 884",
+    "avatar": null,
+    "avatarBg": "bg-success text-white",
+    "initials": "H",
+    "groups": ["VIP", "Bugs"],
+    "date": "2023-04-14, 03:32PM",
+    "status": "Active"
+  },
+  {
+    "id": 9,
+    "name": "Audrey Marianne",
+    "email": "adrey.marine@outlook.com",
+    "phone": "(556) 2457 586",
+    "avatar": "assets/images/avatar/5.png",
+    "avatarBg": null,
+    "initials": null,
+    "groups": ["Bugs", "Updates", "Low Budget"],
+    "date": "2023-04-20, 01:47PM",
+    "status": "Declined"
+  },
+  {
+    "id": 10,
+    "name": "Elliot Nancy",
+    "email": "elliot.nancy@outlook.com",
+    "phone": "(554) 2478 663",
+    "avatar": null,
+    "avatarBg": "bg-primary text-white",
+    "initials": "E",
+    "groups": ["Personal", "Low Budget"],
+    "date": "2023-04-22, 02:12PM",
+    "status": "Active"
+  }
+]
