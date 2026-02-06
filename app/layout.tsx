@@ -1,8 +1,12 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import '@/components/css/index'
-import '@/components/css/vendors'
+import ClientBootstrap from "@/components/ClientBootstrap";
+// import '@/components/css/index'
+// import '@/components/css/vendors'
+// import "@/components/styling/css/theme.min.css"
+import 'bootstrap/dist/css/bootstrap.min.css'
+// import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import VendorInit from "@/components/VendorInit";
 import AosInit from "@/components/AosInit";
 // === Vendor CSS (node_modules) ===
@@ -13,7 +17,7 @@ import 'animate.css/animate.min.css'
 // Icons
 import '@fortawesome/fontawesome-free/css/all.min.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
-import 'feather-icons/dist/feather.css'
+// import 'feather-icons/dist/feather.css'
 import 'flag-icons/css/flag-icons.min.css'
 
 // DataTables
@@ -65,6 +69,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <ClientBootstrap />
         <VendorInit />
         <AosInit />
         {children}

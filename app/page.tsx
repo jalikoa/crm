@@ -7,8 +7,8 @@ export default function LoginPage() {
   const router = useRouter();
   
   // State management for form data
-  const [email, setEmail] = useState('wrapcode.info@gmail.com');
-  const [password, setPassword] = useState('123456');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
   const [rememberMe, setRememberMe] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -167,43 +167,6 @@ export default function LoginPage() {
                 </button>
               </div>
             </form>
-            
-            <div className="w-100 mt-5 text-center mx-auto">
-              <div className="mb-4 border-bottom position-relative">
-                <span className="small py-1 px-3 text-uppercase text-muted bg-white position-absolute translate-middle">
-                  or
-                </span>
-              </div>
-              
-              <div className="d-flex align-items-center justify-content-center gap-2">
-                <button
-                  type="button"
-                  className="btn btn-light-brand flex-fill"
-                  onClick={() => handleSocialLogin('Facebook')}
-                  title="Login with Facebook"
-                >
-                  <i className="feather-facebook"></i>
-                </button>
-                
-                <button
-                  type="button"
-                  className="btn btn-light-brand flex-fill"
-                  onClick={() => handleSocialLogin('Twitter')}
-                  title="Login with Twitter"
-                >
-                  <i className="feather-twitter"></i>
-                </button>
-                
-                <button
-                  type="button"
-                  className="btn btn-light-brand flex-fill"
-                  onClick={() => handleSocialLogin('Github')}
-                  title="Login with Github"
-                >
-                  <i className="feather-github text"></i>
-                </button>
-              </div>
-            </div>
             
             {/* Removed registration link as per your request */}
           </div>

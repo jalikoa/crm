@@ -6,7 +6,31 @@ export default function VendorInit() {
   return (
     <>
       {/* ================= CORE DEPENDENCIES ================= */}
-
+      <link rel="stylesheet" href="/assets/css/theme.min.css" />
+      {/* <link rel="stylesheet" href="/assets/css/bootstrap.min.css" /> */}
+      <link rel="stylesheet" href="/assets/vendors/css/animate.min.css" />
+      <link rel="stylesheet" href="/assets/vendors/css/bsicon.min.css" />
+      <link rel="stylesheet" href="/assets/vendors/css/dataTables.bs5.min.css" />
+      <link rel="stylesheet" href="/assets/vendors/css/datepicker.min.css" />
+      <link rel="stylesheet" href="/assets/vendors/css/daterangepicker.min.css" />
+      <link rel="stylesheet" href="/assets/vendors/css/emojionearea.min.css" />
+      <link rel="stylesheet" href="/assets/vendors/css/feather.min.css" />
+      <link rel="stylesheet" href="/assets/vendors/css/flagicon.min.css" />
+      <link rel="stylesheet" href="/assets/vendors/css/fontawesome.min.css" />
+      <link rel="stylesheet" href="/assets/vendors/css/jquery-jvectormap.min.css" />
+      <link rel="stylesheet" href="/assets/vendors/css/jquery.steps.min.css" />
+      <link rel="stylesheet" href="/assets/vendors/css/jquery.time-to.min.css" />
+      <link rel="stylesheet" href="/assets/vendors/css/quill.min.css" />
+      <link rel="stylesheet" href="/assets/vendors/css/select2.min.css" />
+      <link rel="stylesheet" href="/assets/vendors/css/select2-theme.min.css" />
+      <link rel="stylesheet" href="/assets/vendors/css/sweetalert2.min.css" />
+      <link rel="stylesheet" href="/assets/vendors/css/tagify.min.css" />
+      <link rel="stylesheet" href="/assets/vendors/css/tagify-data.min.css" />
+      <link rel="stylesheet" href="/assets/vendors/css/tui-calendar.min.css" />
+      <link rel="stylesheet" href="/assets/vendors/css/tui-date-picker.min.css" />
+      <link rel="stylesheet" href="/assets/vendors/css/tui-time-picker.min.css" />
+      <link rel="stylesheet" href="/assets/vendors/css/tui-theme.min.css" />
+      <link rel="stylesheet" href="/assets/vendors/css/vendors.min.css" />
       {/* jQuery (MUST be first) */}
       <Script
         src="/assets/vendors/js/jquery.min.js"
