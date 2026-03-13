@@ -92,7 +92,7 @@ export default function CustomerTableRow({ customer }: CustomerTableRowProps) {
       </td>
       <td>
         <div className="hstack gap-2 justify-content-end">
-          <a href="customers-view.html" className="avatar-text avatar-md">
+          <a href={`/admin/dashboard/customers/${customer.id}`} className="avatar-text avatar-md">
             <i className="feather feather-eye"></i>
           </a>
           <div className="dropdown">

@@ -30,7 +30,7 @@ export default function sidebar () {
                         </a>
                         <ul className="nxl-submenu">
                             <li className="nxl-item"><a className="nxl-link" href="/admin/dashboard/customers">View Customers</a></li>
-                            <li className="nxl-item"><a className="nxl-link" href="/admin/dashboard/add">Add New</a></li>
+                            <li className="nxl-item"><a className="nxl-link" href="/admin/dashboard/customers/add">Add New</a></li>
                         </ul>
                     </li>
                     <li className="nxl-item nxl-hasmenu">

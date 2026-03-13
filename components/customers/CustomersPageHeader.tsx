@@ -23,7 +23,7 @@ export default function CustomersPageHeader() {
             </a>
           </div>
           <div className="d-flex align-items-center gap-2 page-header-right-items-wrapper">
-            <a href="javascript:void(0);" className="btn btn-icon btn-light-brand" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+            <a href="#" className="btn btn-icon btn-light-brand" data-bs-toggle="collapse" data-bs-target="#collapseOne">
               <i className="feather-bar-chart"></i>
             </a>
             <div className="dropdown">
@@ -31,31 +31,31 @@ export default function CustomersPageHeader() {
                 <i className="feather-filter"></i>
               </a>
               <div className="dropdown-menu dropdown-menu-end">
-                <a href="javascript:void(0);" className="dropdown-item">
+                <a href="#" className="dropdown-item">
                   <i className="feather-eye me-3"></i>
                   <span>All</span>
                 </a>
-                <a href="javascript:void(0);" className="dropdown-item">
+                <a href="#" className="dropdown-item">
                   <i className="feather-users me-3"></i>
                   <span>Group</span>
                 </a>
-                <a href="javascript:void(0);" className="dropdown-item">
+                <a href="#" className="dropdown-item">
                   <i className="feather-flag me-3"></i>
                   <span>Country</span>
                 </a>
-                <a href="javascript:void(0);" className="dropdown-item">
+                <a href="#" className="dropdown-item">
                   <i className="feather-dollar-sign me-3"></i>
                   <span>Invoice</span>
                 </a>
-                <a href="javascript:void(0);" className="dropdown-item">
+                <a href="#" className="dropdown-item">
                   <i className="feather-briefcase me-3"></i>
                   <span>Project</span>
                 </a>
-                <a href="javascript:void(0);" className="dropdown-item">
+                <a href="#" className="dropdown-item">
                   <i className="feather-user-check me-3"></i>
                   <span>Active</span>
                 </a>
-                <a href="javascript:void(0);" className="dropdown-item">
+                <a href="#" className="dropdown-item">
                   <i className="feather-user-minus me-3"></i>
                   <span>Inactive</span>
                 </a>
@@ -66,34 +66,34 @@ export default function CustomersPageHeader() {
                 <i className="feather-paperclip"></i>
               </a>
               <div className="dropdown-menu dropdown-menu-end">
-                <a href="javascript:void(0);" className="dropdown-item">
+                <a href="#" className="dropdown-item">
                   <i className="bi bi-filetype-pdf me-3"></i>
                   <span>PDF</span>
                 </a>
-                <a href="javascript:void(0);" className="dropdown-item">
+                <a href="#" className="dropdown-item">
                   <i className="bi bi-filetype-csv me-3"></i>
                   <span>CSV</span>
                 </a>
-                <a href="javascript:void(0);" className="dropdown-item">
+                <a href="#" className="dropdown-item">
                   <i className="bi bi-filetype-xml me-3"></i>
                   <span>XML</span>
                 </a>
-                <a href="javascript:void(0);" className="dropdown-item">
+                <a href="#" className="dropdown-item">
                   <i className="bi bi-filetype-txt me-3"></i>
                   <span>Text</span>
                 </a>
-                <a href="javascript:void(0);" className="dropdown-item">
+                <a href="#" className="dropdown-item">
                   <i className="bi bi-filetype-exe me-3"></i>
                   <span>Excel</span>
                 </a>
                 <div className="dropdown-divider"></div>
-                <a href="javascript:void(0);" className="dropdown-item">
+                <a href="#" className="dropdown-item">
                   <i className="bi bi-printer me-3"></i>
                   <span>Print</span>
                 </a>
               </div>
             </div>
-            <a href="customers-create.html" className="btn btn-primary">
+            <a href="/admin/dashboard/customers/add" className="btn btn-primary">
               <i className="feather-plus me-2"></i>
               <span>Create Customer</span>
             </a>

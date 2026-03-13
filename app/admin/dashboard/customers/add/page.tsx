@@ -73,11 +73,11 @@ export default function AddCustomer() {
                   </a>
                 </div>
                 <div className="d-flex align-items-center gap-2 page-header-right-items-wrapper">
-                  <a href="javascript:void(0);" className="btn btn-light-brand successAlertMessage">
+                  <a href="#" className="btn btn-light-brand successAlertMessage">
                     <i className="feather-layers me-2"></i>
                     <span>Save as Draft</span>
                   </a>
-                  <a href="javascript:void(0);" className="btn btn-primary successAlertMessage">
+                  <a href="#" className="btn btn-primary successAlertMessage">
                     <i className="feather-user-plus me-2"></i>
                     <span>Create Customer</span>
                   </a>
@@ -100,32 +100,32 @@ export default function AddCustomer() {
                     {/* <!-- Nav tabs --> */}
                     <ul className="nav nav-tabs flex-wrap w-100 text-center customers-nav-tabs" id="myTab" role="tablist">
                       <li className="nav-item flex-fill border-top" role="presentation">
-                        <a href="javascript:void(0);" className="nav-link active" data-bs-toggle="tab" data-bs-target="#profileTab" role="tab">
+                        <a href="#" className="nav-link active" data-bs-toggle="tab" data-bs-target="#profileTab" role="tab">
                           Profile
                         </a>
                       </li>
                       <li className="nav-item flex-fill border-top" role="presentation">
-                        <a href="javascript:void(0);" className="nav-link" data-bs-toggle="tab" data-bs-target="#passwordTab" role="tab">
+                        <a href="#" className="nav-link" data-bs-toggle="tab" data-bs-target="#passwordTab" role="tab">
                           Password
                         </a>
                       </li>
                       <li className="nav-item flex-fill border-top" role="presentation">
-                        <a href="javascript:void(0);" className="nav-link" data-bs-toggle="tab" data-bs-target="#billingTab" role="tab">
+                        <a href="#" className="nav-link" data-bs-toggle="tab" data-bs-target="#billingTab" role="tab">
                           Billing & Shipping
                         </a>
                       </li>
                       <li className="nav-item flex-fill border-top" role="presentation">
-                        <a href="javascript:void(0);" className="nav-link" data-bs-toggle="tab" data-bs-target="#subscriptionTab" role="tab">
+                        <a href="#" className="nav-link" data-bs-toggle="tab" data-bs-target="#subscriptionTab" role="tab">
                           Subscription
                         </a>
                       </li>
                       <li className="nav-item flex-fill border-top" role="presentation">
-                        <a href="javascript:void(0);" className="nav-link" data-bs-toggle="tab" data-bs-target="#notificationsTab" role="tab">
+                        <a href="#" className="nav-link" data-bs-toggle="tab" data-bs-target="#notificationsTab" role="tab">
                           Notifications
                         </a>
                       </li>
                       <li className="nav-item flex-fill border-top" role="presentation">
-                        <a href="javascript:void(0);" className="nav-link" data-bs-toggle="tab" data-bs-target="#connectionTab" role="tab">
+                        <a href="#" className="nav-link" data-bs-toggle="tab" data-bs-target="#connectionTab" role="tab">
                           Connection
                         </a>
                       </li>
@@ -141,7 +141,7 @@ export default function AddCustomer() {
                               Following information is publicly displayed, be careful!
                             </span>
                           </h5>
-                          <a href="javascript:void(0);" className="btn btn-sm btn-light-brand">
+                          <a href="#" className="btn btn-sm btn-light-brand">
                             Add New
                           </a>
                         </div>
@@ -404,7 +404,7 @@ export default function AddCustomer() {
                               Communication details in case we want to connect with you.
                             </span>
                           </h5>
-                          <a href="javascript:void(0);" className="btn btn-sm btn-light-brand">
+                          <a href="#" className="btn btn-sm btn-light-brand">
                             Add New
                           </a>
                         </div>
